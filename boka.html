@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boka</title>
+    <meta name="description"
+        content="Boka ditt rum på Hotell Natur här. Se tillgängliga rum och datum för din vistelse.">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <header class="header-grid">
+        <div class="item a">
+            <b>HN</b>
+        </div>
+        <div class="item b">
+            <h1>Hotell Naturen</h1>
+        </div>
+    </header>
+
+    <main class="main-grid">
+
+        <nav class="item c">
+            <a href="index.html">Hem</a>
+            <a href="boka.html">Boka</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="bilder.html">Bilder</a>
+        </nav>
+
+        <div class="item g">
+            <h2>Boka rum</h2>
+            <form action="exempel.se/mapp" method="post">
+                <label for="name">Namn:</label>
+                <input type="text" id="name"><br>
+
+                <label for="tel">Telefon:</label>
+                <input type="tel" id="tel"><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email"><br>
+
+                <label for="arrivaldate">Incheckning:</label>
+                <input type="date" id="arrivaldate"><br>
+
+                <label for="exitdate">Utcheckning:</label>
+                <input type="date" id="exitdate"><br>
+
+                <label for="textarea">Meddelande:</label><br>
+                <textarea name="meddelande" id="textarea" cols="50" rows="8"></textarea><br>
+
+                <button type="submit">Boka</button>
+            </form>
+        </div>
+
+        <div class="item h">
+            <img src="Bilder/pool-night.webp" alt="Mysig pool" class="pool-night">
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="item f">
+            <p>Hotell Naturen | Skogsgatan 2 | 08-123 45 67 | hotell.naturen@mail.se</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
